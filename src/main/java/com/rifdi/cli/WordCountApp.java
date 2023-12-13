@@ -1,17 +1,24 @@
 package com.rifdi.cli;
 
-import java.io.IOException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
 /**
- * WordCountApp is a simple console application which computes
- * the word from a file and sorted by the number of occurances.
+ * WordCountApp is a simple console application that computes
+ * the word from a file and sorts by the number of occurrences.
  * The application takes a file of data as its single argument.
  */
 public class WordCountApp {
+
+  private static final Logger logger = LoggerFactory.getLogger(WordCountApp.class);
+
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +26,7 @@ public class WordCountApp {
 
     while (true) {
       // Prompt the user to enter the file path
-      System.out.println("Enter the file path (e.g., /path/to/file.txt): ");
+      logger.info("Enter the file path (e.g., /path/to/file.txt): ");
       filePath = scanner.nextLine();
 
       if (filePath.equals("exit")) {
@@ -33,21 +40,24 @@ public class WordCountApp {
         // Read the content of the file
         String fileContent = readFileContent(filePath);
 
-        // Print the file content
-        System.out.println("File Content:\n" + fileContent);
+        // Log the file content
+        logger.info("File Content:\n{}", fileContent);
 
         Map<String, Integer> wordCountMap = countWords(filePath);
 
+        // Display the word counts
         displaySortedWordCounts(wordCountMap);
 
         // Set flag to exit the loop
-//        validPath = true;
-        System.out.println("To end session enter \"exit\" ");
-
+        System.out.println("To end the session, enter 'exit'");
       } catch (IllegalArgumentException e) {
+        // Log the error message
+        logger.error("Invalid path format: {}", e.getMessage());
         // Print the error message and retry the input
         System.err.println("Invalid path format: " + e.getMessage());
       } catch (IOException e) {
+        // Log the error message
+        logger.error("Error reading the file: {}", e.getMessage());
         // Print the error message and retry the input
         System.err.println("Error reading the file: " + e.getMessage());
       }
@@ -104,6 +114,11 @@ public class WordCountApp {
     wordCountMap.entrySet()
             .stream()
             .sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))
-            .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+            .forEach(entry ->
+
+                    // Log the word counts
+                    logger.info("Word Counts: {}", entry.getKey() + ": " + entry.getValue()));
+
+//                    System.out.println(entry.getKey() + ": " + entry.getValue()));
   }
 }
