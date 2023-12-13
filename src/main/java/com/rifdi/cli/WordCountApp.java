@@ -2,7 +2,6 @@ package com.rifdi.cli;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -112,13 +111,8 @@ public class WordCountApp {
 
   private static void displaySortedWordCounts(Map<String, Integer> wordCountMap) {
     wordCountMap.entrySet()
-            .stream()
-            .sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))
-            .forEach(entry ->
-
-                    // Log the word counts
-                    logger.info("Word Counts: {}", entry.getKey() + ": " + entry.getValue()));
-
-//                    System.out.println(entry.getKey() + ": " + entry.getValue()));
+        .stream()
+        .sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))
+        .forEach(entry -> logger.info("Word Counts: {}", entry.getKey() + ": " + entry.getValue()));
   }
 }
