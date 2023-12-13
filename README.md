@@ -24,8 +24,8 @@ List key features of your WordCountApp.
 
 Specify any prerequisites or dependencies that users need to have installed before using your application.
 
-- Java (version x.x.x)
-- Maven (version x.x.x)
+- Java (version 21.0.1)
+- Maven (version 3.9.6)
 
 ## Getting Started
 
@@ -48,7 +48,7 @@ Explain how to use your application. Include examples and command-line instructi
 # Run the WordCountApp
 
 ```bash
-java -jar target/WordCountApp.jar
+java -jar .\target\word-count-cli-1.0.jar
 ```
 
 

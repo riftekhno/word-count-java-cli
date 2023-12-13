@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b53e7988-316b-4c82-914e-b69da6ee8af4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/files/empty.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/wordcount.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/wordcount.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/rifdi/cli/WordCountAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rifdi/cli/WordCountAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -40,6 +40,7 @@
     "JUnit.WordCountAppTest.countWords_invalidFile.executor": "Run",
     "JUnit.WordCountAppTest.countWords_validFile.executor": "Run",
     "JUnit.WordCountAppTest.displaySortedWordCounts.executor": "Debug",
+    "JUnit.WordCountAppTest.executor": "Run",
     "JUnit.WordCountAppTest.readFileContent_invalidFile.executor": "Run",
     "JUnit.WordCountAppTest.readFileContent_validFile.executor": "Run",
     "JUnit.WordCountAppTest.testCountWords (1).executor": "Run",
@@ -71,9 +72,8 @@
       <recent name="D:\GIT\word-count-java-cli\files" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordCountAppTest.displaySortedWordCounts">
-    <configuration name="WordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountApp" />
+  <component name="RunManager" selected="JUnit.WordCountAppTest">
+    <configuration name="WordCountAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="word-count-cli" />
       <extension name="coverage">
         <pattern>
@@ -81,6 +81,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.rifdi.cli" />
+      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordCountAppTest" />
         <item itemvalue="JUnit.WordCountAppTest.displaySortedWordCounts" />
         <item itemvalue="JUnit.WordCountAppTest.countWords_invalidFile" />
         <item itemvalue="JUnit.WordCountAppTest.countWords_emptyFile" />
         <item itemvalue="JUnit.WordCountAppTest.countWords_validFile" />
-        <item itemvalue="Application.WordCountApp" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +190,7 @@
       <workItem from="1702490986263" duration="13000" />
       <workItem from="1702491012122" duration="273000" />
       <workItem from="1702491287891" duration="24000" />
-      <workItem from="1702491314312" duration="3301000" />
+      <workItem from="1702491314312" duration="3837000" />
     </task>
     <servers />
   </component>

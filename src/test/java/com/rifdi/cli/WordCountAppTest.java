@@ -35,7 +35,7 @@ public class WordCountAppTest {
     public void readFileContent_validFile() throws IOException {
         String content = WordCountApp.readFileContent(VALID_FILE_PATH);
         assertNotNull(content);
-        assertTrue(content.contains("Lorem ipsum dolor"));
+        assertTrue(content.contains("The banana and apple"));
     }
 
     @Test(expected = IOException.class)
