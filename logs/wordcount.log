@@ -1,0 +1,589 @@
+2023-12-14 02:38:19,166 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:38:30,333 [ERROR] [WordCountApp] - Invalid path format: File path should end with '.txt'
+2023-12-14 02:38:30,335 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:38:36,078 [INFO] [WordCountApp] - File Content:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Non sodales neque
+sodales ut. Gravida arcu ac tortor dignissim convallis aenean et tortor.
+Ultricies mi eget mauris pharetra et ultrices neque. Vel eros donec ac odio
+tempor orci.
+Tellus in metus vulputate eu scelerisque felis. Volutpat diam ut venenatis
+tellus in metus vulputate eu. Tempor id eu nisl nunc mi ipsum faucibus
+vitae. Sit amet luctus venenatis lectus magna fringilla urna. Habitant
+morbi tristique senectus et netus et. Eget felis eget nunc lobortis. Neque
+vitae tempus quam pellentesque nec.
+Pellentesque nec nam aliquam sem et tortor consequat id porta. Eget dolor
+morbi non arcu risus quis. Lacinia quis vel eros donec. Velit laoreet id
+donec ultrices tincidunt arcu non sodales. Feugiat in fermentum posuere
+urna nec tincidunt. Tortor at risus viverra adipiscing at. In mollis nunc
+sed id semper. Semper eget duis at tellus at urna condimentum mattis
+pellentesque. Egestas purus viverra accumsan in nisl nisi scelerisque eu. A
+cras semper auctor neque vitae tempus quam pellentesque.
+
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: et: 6
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: in: 5
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: eget: 5
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: id: 4
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: at: 4
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: pellentesque: 4
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: neque: 4
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: eu: 4
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: tortor: 4
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: tempor: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: semper: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: sodales: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: urna: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: arcu: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: nec: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: nunc: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: donec: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: ut: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: vitae: 3
+2023-12-14 02:38:36,082 [INFO] [WordCountApp] - Word Counts: tellus: 3
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: non: 3
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: ac: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: ipsum: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: dolor: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: sed: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: metus: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: morbi: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: quam: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: nisl: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: tincidunt: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: ultrices: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: magna: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: quis: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: eros: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: adipiscing: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: scelerisque: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: mi: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: vel: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: vulputate: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: felis: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: venenatis: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: viverra: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: tempus: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: risus: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: sit: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: amet: 2
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: aenean: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: mollis: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: purus: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: lorem: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: nam: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: habitant: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: volutpat: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: velit: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: eiusmod: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: luctus: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: convallis: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: elit: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: laoreet: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: duis: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: sem: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: diam: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: porta: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: ultricies: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: a: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: nisi: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: aliquam: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: condimentum: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: auctor: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: incididunt: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: tristique: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: odio: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: accumsan: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: do: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: egestas: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: mauris: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: feugiat: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: lobortis: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: consequat: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: dignissim: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: fermentum: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: mattis: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: senectus: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: posuere: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: orci: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: faucibus: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: pharetra: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: lacinia: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: lectus: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: netus: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: cras: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: fringilla: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: labore: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: dolore: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: aliqua: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: consectetur: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Word Counts: gravida: 1
+2023-12-14 02:38:36,083 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:39:39,672 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:39:45,179 [INFO] [WordCountApp] - File Content:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Non sodales neque
+sodales ut. Gravida arcu ac tortor dignissim convallis aenean et tortor.
+Ultricies mi eget mauris pharetra et ultrices neque. Vel eros donec ac odio
+tempor orci.
+Tellus in metus vulputate eu scelerisque felis. Volutpat diam ut venenatis
+tellus in metus vulputate eu. Tempor id eu nisl nunc mi ipsum faucibus
+vitae. Sit amet luctus venenatis lectus magna fringilla urna. Habitant
+morbi tristique senectus et netus et. Eget felis eget nunc lobortis. Neque
+vitae tempus quam pellentesque nec.
+Pellentesque nec nam aliquam sem et tortor consequat id porta. Eget dolor
+morbi non arcu risus quis. Lacinia quis vel eros donec. Velit laoreet id
+donec ultrices tincidunt arcu non sodales. Feugiat in fermentum posuere
+urna nec tincidunt. Tortor at risus viverra adipiscing at. In mollis nunc
+sed id semper. Semper eget duis at tellus at urna condimentum mattis
+pellentesque. Egestas purus viverra accumsan in nisl nisi scelerisque eu. A
+cras semper auctor neque vitae tempus quam pellentesque.
+
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: et: 6
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: in: 5
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: eget: 5
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: id: 4
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: at: 4
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: pellentesque: 4
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: neque: 4
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: eu: 4
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: tortor: 4
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: tempor: 3
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: semper: 3
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: sodales: 3
+2023-12-14 02:39:45,183 [INFO] [WordCountApp] - Word Counts: urna: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: arcu: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: nec: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: nunc: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: donec: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: ut: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: vitae: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: tellus: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: non: 3
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: ac: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: ipsum: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: dolor: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: sed: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: metus: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: morbi: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: quam: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: nisl: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: tincidunt: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: ultrices: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: magna: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: quis: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: eros: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: adipiscing: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: scelerisque: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: mi: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: vel: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: vulputate: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: felis: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: venenatis: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: viverra: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: tempus: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: risus: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: sit: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: amet: 2
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: aenean: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: mollis: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: purus: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: lorem: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: nam: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: habitant: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: volutpat: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: velit: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: eiusmod: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: luctus: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: convallis: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: elit: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: laoreet: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: duis: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: sem: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: diam: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: porta: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: ultricies: 1
+2023-12-14 02:39:45,184 [INFO] [WordCountApp] - Word Counts: a: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: nisi: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: aliquam: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: condimentum: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: auctor: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: incididunt: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: tristique: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: odio: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: accumsan: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: do: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: egestas: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: mauris: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: feugiat: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: lobortis: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: consequat: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: dignissim: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: fermentum: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: mattis: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: senectus: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: posuere: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: orci: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: faucibus: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: pharetra: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: lacinia: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: lectus: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: netus: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: cras: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: fringilla: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: labore: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: dolore: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: aliqua: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: consectetur: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Word Counts: gravida: 1
+2023-12-14 02:39:45,185 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:40:23,630 [INFO] [WordCountApp] - File Content:
+pellentesque quam tempus vitae neque auctor semper A
+cras eu. scelerisque nisi nisl in accumsan viverra purus Egestas mattis
+pellentesque. condimentum urna at tellus at duis eget Semper semper. id nunc
+sed mollis In at. adipiscing viverra risus at Tortor tincidunt. nec posuere
+urna fermentum in Feugiat sodales. non arcu tincidunt ultrices id
+donec laoreet Velit donec. eros vel quis Lacinia quis. risus arcu non dolor
+morbi Eget porta. id consequat tortor et sem aliquam nam nec nec.
+Pellentesque pellentesque quam tempus Neque
+vitae lobortis. nunc eget felis Eget et. netus et senectus tristique Habitant
+morbi urna. fringilla magna lectus venenatis luctus amet Sit faucibus
+vitae. ipsum mi nunc nisl eu id Tempor eu. vulputate metus in venenatis
+tellus ut diam Volutpat felis. scelerisque eu vulputate metus in orci.
+Tellus odio
+tempor ac donec eros Vel neque. ultrices et pharetra mauris eget mi tortor.
+Ultricies et aenean convallis dignissim tortor ac arcu Gravida ut. neque
+sodales sodales Non aliqua. magna dolore et labore ut incididunt eiusmod
+tempor do sed elit, adipiscing consectetur amet, sit dolor ipsum Lorem.
+
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: et: 6
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: in: 5
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: eget: 5
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: id: 4
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: at: 4
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: pellentesque: 4
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: neque: 4
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: eu: 4
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: tortor: 4
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: tempor: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: semper: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: sodales: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: urna: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: arcu: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: nec: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: nunc: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: donec: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: ut: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: vitae: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: tellus: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: non: 3
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: ac: 2
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: ipsum: 2
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: dolor: 2
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: sed: 2
+2023-12-14 02:40:23,632 [INFO] [WordCountApp] - Word Counts: metus: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: morbi: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: quam: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: nisl: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: tincidunt: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: ultrices: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: magna: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: quis: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: eros: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: adipiscing: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: scelerisque: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: vel: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: mi: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: vulputate: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: felis: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: venenatis: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: viverra: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: tempus: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: risus: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: sit: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: amet: 2
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: aenean: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: mollis: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: purus: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: lorem: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: nam: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: habitant: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: volutpat: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: velit: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: eiusmod: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: luctus: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: convallis: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: elit: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: laoreet: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: duis: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: sem: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: porta: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: diam: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: ultricies: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: a: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: nisi: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: condimentum: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: aliquam: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: auctor: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: incididunt: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: tristique: 1
+2023-12-14 02:40:23,633 [INFO] [WordCountApp] - Word Counts: odio: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: accumsan: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: egestas: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: do: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: mauris: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: feugiat: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: consequat: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: lobortis: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: dignissim: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: fermentum: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: mattis: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: senectus: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: posuere: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: orci: 1
+2023-12-14 02:40:23,634 [INFO] [WordCountApp] - Word Counts: faucibus: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: lacinia: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: pharetra: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: lectus: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: netus: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: cras: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: fringilla: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: labore: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: dolore: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: aliqua: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: gravida: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Word Counts: consectetur: 1
+2023-12-14 02:40:23,635 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:40:35,269 [INFO] [WordCountApp] - File Content:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Non sodales neque
+sodales ut. Gravida arcu ac tortor dignissim convallis aenean et tortor.
+Ultricies mi eget mauris pharetra et ultrices neque. Vel eros donec ac odio
+tempor orci.
+Tellus in metus vulputate eu scelerisque felis. Volutpat diam ut venenatis
+tellus in metus vulputate eu. Tempor id eu nisl nunc mi ipsum faucibus
+vitae. Sit amet luctus venenatis lectus magna fringilla urna. Habitant
+morbi tristique senectus et netus et. Eget felis eget nunc lobortis. Neque
+vitae tempus quam pellentesque nec.
+Pellentesque nec nam aliquam sem et tortor consequat id porta. Eget dolor
+morbi non arcu risus quis. Lacinia quis vel eros donec. Velit laoreet id
+donec ultrices tincidunt arcu non sodales. Feugiat in fermentum posuere
+urna nec tincidunt. Tortor at risus viverra adipiscing at. In mollis nunc
+sed id semper. Semper eget duis at tellus at urna condimentum mattis
+pellentesque. Egestas purus viverra accumsan in nisl nisi scelerisque eu. A
+cras semper auctor neque vitae tempus quam pellentesque.
+
+2023-12-14 02:40:35,270 [INFO] [WordCountApp] - Word Counts: et: 6
+2023-12-14 02:40:35,270 [INFO] [WordCountApp] - Word Counts: in: 5
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: eget: 5
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: id: 4
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: at: 4
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: pellentesque: 4
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: neque: 4
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: eu: 4
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: tortor: 4
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: tempor: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: semper: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: sodales: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: urna: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: arcu: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: nec: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: nunc: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: donec: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: ut: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: vitae: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: tellus: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: non: 3
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: ac: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: ipsum: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: dolor: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: sed: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: metus: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: morbi: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: quam: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: nisl: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: tincidunt: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: ultrices: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: magna: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: quis: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: eros: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: adipiscing: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: scelerisque: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: mi: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: vel: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: vulputate: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: felis: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: venenatis: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: viverra: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: tempus: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: risus: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: sit: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: amet: 2
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: aenean: 1
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: mollis: 1
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: purus: 1
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: lorem: 1
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: nam: 1
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: habitant: 1
+2023-12-14 02:40:35,271 [INFO] [WordCountApp] - Word Counts: volutpat: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: velit: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: eiusmod: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: luctus: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: convallis: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: elit: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: laoreet: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: duis: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: sem: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: diam: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: porta: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: ultricies: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: a: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: nisi: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: aliquam: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: condimentum: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: auctor: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: incididunt: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: tristique: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: odio: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: accumsan: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: do: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: egestas: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: mauris: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: feugiat: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: lobortis: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: consequat: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: dignissim: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: fermentum: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: mattis: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: senectus: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: posuere: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: orci: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: faucibus: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: pharetra: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: lacinia: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: lectus: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: netus: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: cras: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: fringilla: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: labore: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: dolore: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: aliqua: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: consectetur: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Word Counts: gravida: 1
+2023-12-14 02:40:35,272 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:40:36,545 [INFO] [WordCountApp] - File Content:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Non sodales neque
+sodales ut. Gravida arcu ac tortor dignissim convallis aenean et tortor.
+Ultricies mi eget mauris pharetra et ultrices neque. Vel eros donec ac odio
+tempor orci.
+Tellus in metus vulputate eu scelerisque felis. Volutpat diam ut venenatis
+tellus in metus vulputate eu. Tempor id eu nisl nunc mi ipsum faucibus
+vitae. Sit amet luctus venenatis lectus magna fringilla urna. Habitant
+morbi tristique senectus et netus et. Eget felis eget nunc lobortis. Neque
+vitae tempus quam pellentesque nec.
+Pellentesque nec nam aliquam sem et tortor consequat id porta. Eget dolor
+morbi non arcu risus quis. Lacinia quis vel eros donec. Velit laoreet id
+donec ultrices tincidunt arcu non sodales. Feugiat in fermentum posuere
+urna nec tincidunt. Tortor at risus viverra adipiscing at. In mollis nunc
+sed id semper. Semper eget duis at tellus at urna condimentum mattis
+pellentesque. Egestas purus viverra accumsan in nisl nisi scelerisque eu. A
+cras semper auctor neque vitae tempus quam pellentesque.
+
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: et: 6
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: in: 5
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: eget: 5
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: id: 4
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: at: 4
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: pellentesque: 4
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: neque: 4
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: eu: 4
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: tortor: 4
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: tempor: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: semper: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: sodales: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: urna: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: arcu: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: nec: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: nunc: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: donec: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: ut: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: vitae: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: tellus: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: non: 3
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: ac: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: ipsum: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: dolor: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: sed: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: metus: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: morbi: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: quam: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: nisl: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: tincidunt: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: ultrices: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: magna: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: quis: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: eros: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: adipiscing: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: scelerisque: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: mi: 2
+2023-12-14 02:40:36,547 [INFO] [WordCountApp] - Word Counts: vel: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: vulputate: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: felis: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: venenatis: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: viverra: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: tempus: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: risus: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: sit: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: amet: 2
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: aenean: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: mollis: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: purus: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: lorem: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: nam: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: habitant: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: volutpat: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: velit: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: eiusmod: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: luctus: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: convallis: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: elit: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: laoreet: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: duis: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: sem: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: diam: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: porta: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: ultricies: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: a: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: nisi: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: aliquam: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: condimentum: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: auctor: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: incididunt: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: tristique: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: odio: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: accumsan: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: do: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: egestas: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: mauris: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: feugiat: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: lobortis: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: consequat: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: dignissim: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: fermentum: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: mattis: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: senectus: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: posuere: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: orci: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: faucibus: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: pharetra: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: lacinia: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: lectus: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: netus: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: cras: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: fringilla: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: labore: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: dolore: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: aliqua: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: consectetur: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: gravida: 1
+2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
