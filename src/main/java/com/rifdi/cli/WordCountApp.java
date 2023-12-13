@@ -66,7 +66,7 @@ public class WordCountApp {
     scanner.close();
   }
 
-  private static void validatePathFormat(String filePath) {
+  public static void validatePathFormat(String filePath) {
     // Add your own validation logic as needed
     // For simplicity, let's check if the path ends with ".txt"
     if (!filePath.endsWith(".txt")) {
@@ -109,7 +109,7 @@ public class WordCountApp {
     return wordCountMap;
   }
 
-  private static void displaySortedWordCounts(Map<String, Integer> wordCountMap) {
+  public static void displaySortedWordCounts(Map<String, Integer> wordCountMap) {
     wordCountMap.entrySet()
         .stream()
         .sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))

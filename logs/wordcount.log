@@ -587,3 +587,134 @@ cras semper auctor neque vitae tempus quam pellentesque.
 2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: consectetur: 1
 2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Word Counts: gravida: 1
 2023-12-14 02:40:36,548 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:55:13,958 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:55:20,821 [INFO] [WordCountApp] - File Content:
+The use of renewable energy sources, such as wind and solar power, has gained significant momentum in recent years due to their potential to reduce greenhouse gas emissions and mitigate the impacts of climate change. According to a report by the International Renewable Energy Agency (IRENA), the global installed capacity of renewable energy has increased by 174% since 2010, with wind and solar power accounting for over 80% of this growth. This trend is expected to continue, with renewables projected to provide 72% of the world's electricity by 2050. The economic benefits of transitioning to renewable energy are also significant, as it creates new job opportunities, reduces energy costs, and enhances energy security. However, challenges such as intermittency and storage limitations still exist, which require further research and development to overcome. Overall, the increasing adoption of renewable energy is a positive step towards a more sustainable and low-carbon future.
+
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: energy: 7
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: and: 7
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: of: 7
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: the: 7
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: to: 7
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: renewable: 5
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: as: 3
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: by: 3
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: a: 3
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: has: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: this: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: is: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: significant: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: wind: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: solar: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: power: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: such: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: with: 2
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: trend: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: use: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: accounting: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: renewables: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: years: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: research: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: gained: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: continue: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: international: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: recent: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: potential: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: limitations: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: reduce: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: which: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: new: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: still: 1
+2023-12-14 02:55:20,827 [INFO] [WordCountApp] - Word Counts: development: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: in: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: expected: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: greenhouse: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: require: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: impacts: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: it: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: towards: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: intermittency: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: exist: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: provide: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: creates: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: overall: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: job: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: since: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: benefits: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: however: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: installed: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: increased: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: worlds: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: enhances: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: lowcarbon: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: sources: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: challenges: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: sustainable: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: according: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: for: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: overcome: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: their: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: global: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: storage: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: capacity: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: projected: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: security: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: adoption: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: are: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: gas: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: reduces: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: emissions: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: over: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: costs: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: mitigate: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: agency: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: more: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: change: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: electricity: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: also: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: climate: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: positive: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: opportunities: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: momentum: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: irena: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: transitioning: 1
+2023-12-14 02:55:20,828 [INFO] [WordCountApp] - Word Counts: due: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: future: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: increasing: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: report: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: growth: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: step: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: further: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Word Counts: economic: 1
+2023-12-14 02:55:20,829 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:56:16,815 [INFO] [WordCountApp] - File Content:
+
+2023-12-14 02:56:16,815 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 02:59:52,052 [INFO] [WordCountApp] - File Content:
+The banana and apple went to the market to buy banana, apple, and mango.
+
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: the: 2
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: banana: 2
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: apple: 2
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: and: 2
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: to: 2
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: market: 1
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: went: 1
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: buy: 1
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Word Counts: mango: 1
+2023-12-14 02:59:52,053 [INFO] [WordCountApp] - Enter the file path (e.g., /path/to/file.txt): 
+2023-12-14 03:04:07,070 [INFO] [WordCountApp] - Word Counts: apple: 3
+2023-12-14 03:04:07,071 [INFO] [WordCountApp] - Word Counts: banana: 2
+2023-12-14 03:04:07,071 [INFO] [WordCountApp] - Word Counts: orange: 1
+2023-12-14 03:04:41,398 [INFO] [WordCountApp] - Word Counts: apple: 3
+2023-12-14 03:04:41,403 [INFO] [WordCountApp] - Word Counts: banana: 2
+2023-12-14 03:04:41,403 [INFO] [WordCountApp] - Word Counts: orange: 1
+2023-12-14 03:08:56,702 [INFO] [WordCountApp] - apple: 3: {}
+2023-12-14 03:08:56,704 [INFO] [WordCountApp] - banana: 2: {}
+2023-12-14 03:08:56,704 [INFO] [WordCountApp] - orange: 1: {}
+2023-12-14 03:09:12,973 [INFO] [WordCountApp] - apple: 3: {}
+2023-12-14 03:09:12,974 [INFO] [WordCountApp] - banana: 2: {}
+2023-12-14 03:09:12,974 [INFO] [WordCountApp] - orange: 1: {}
+2023-12-14 03:09:20,409 [INFO] [WordCountApp] - apple: 3: {}
+2023-12-14 03:09:20,410 [INFO] [WordCountApp] - banana: 2: {}
+2023-12-14 03:09:20,410 [INFO] [WordCountApp] - orange: 1: {}

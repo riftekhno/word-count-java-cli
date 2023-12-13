@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b53e7988-316b-4c82-914e-b69da6ee8af4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/empty.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/wordcount.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/wordcount.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rifdi/cli/WordCountAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rifdi/cli/WordCountAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +36,19 @@
     "Application.App.executor": "Run",
     "Application.WordCountApp.executor": "Run",
     "JUnit.AppTest.executor": "Run",
+    "JUnit.WordCountAppTest.countWords_emptyFile.executor": "Run",
+    "JUnit.WordCountAppTest.countWords_invalidFile.executor": "Run",
+    "JUnit.WordCountAppTest.countWords_validFile.executor": "Run",
+    "JUnit.WordCountAppTest.displaySortedWordCounts.executor": "Debug",
+    "JUnit.WordCountAppTest.readFileContent_invalidFile.executor": "Run",
+    "JUnit.WordCountAppTest.readFileContent_validFile.executor": "Run",
     "JUnit.WordCountAppTest.testCountWords (1).executor": "Run",
     "JUnit.WordCountAppTest.testCountWords.executor": "Debug",
     "JUnit.WordCountAppTest.testWordCountAppExitCommand.executor": "Run",
     "JUnit.WordCountAppTest.testWordCountAppWithInvalidPathFormat.executor": "Run",
     "JUnit.WordCountAppTest.testWordCountAppWithValidFile.executor": "Debug",
+    "JUnit.WordCountAppTest.validatePathFormat_invalidPath.executor": "Run",
+    "JUnit.WordCountAppTest.validatePathFormat_validPath.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,7 +56,7 @@
     "git-widget-placeholder": "features/add-file-input",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GIT/word-count-java-cli",
+    "last_opened_file_path": "D:/GIT/word-count-java-cli/files",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +66,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WordCountApp">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT\word-count-java-cli\files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WordCountAppTest.displaySortedWordCounts">
     <configuration name="WordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountApp" />
       <module name="word-count-cli" />
@@ -71,17 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountAppTest.testCountWords (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="word-count-cli" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordCountAppTest" />
-      <option name="METHOD_NAME" value="testCountWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCountAppTest.testCountWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordCountAppTest.countWords_emptyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="word-count-cli" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +95,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rifdi.cli" />
       <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
-      <option name="METHOD_NAME" value="testCountWords" />
+      <option name="METHOD_NAME" value="countWords_emptyFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountAppTest.testWordCountAppWithInvalidPathFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordCountAppTest.countWords_invalidFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="word-count-cli" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +111,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rifdi.cli" />
       <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
-      <option name="METHOD_NAME" value="testWordCountAppWithInvalidPathFormat" />
+      <option name="METHOD_NAME" value="countWords_invalidFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountAppTest.testWordCountAppWithValidFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordCountAppTest.countWords_validFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="word-count-cli" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +127,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rifdi.cli" />
       <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
-      <option name="METHOD_NAME" value="testWordCountAppWithValidFile" />
+      <option name="METHOD_NAME" value="countWords_validFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountAppTest.displaySortedWordCounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="word-count-cli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rifdi.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rifdi.cli" />
+      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
+      <option name="METHOD_NAME" value="displaySortedWordCounts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordCountAppTest.displaySortedWordCounts" />
+        <item itemvalue="JUnit.WordCountAppTest.countWords_invalidFile" />
+        <item itemvalue="JUnit.WordCountAppTest.countWords_emptyFile" />
+        <item itemvalue="JUnit.WordCountAppTest.countWords_validFile" />
         <item itemvalue="Application.WordCountApp" />
-        <item itemvalue="JUnit.WordCountAppTest.testCountWords (1)" />
-        <item itemvalue="JUnit.WordCountAppTest.testCountWords" />
-        <item itemvalue="JUnit.WordCountAppTest.testWordCountAppWithValidFile" />
-        <item itemvalue="JUnit.WordCountAppTest.testWordCountAppWithInvalidPathFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +187,7 @@
       <workItem from="1702490986263" duration="13000" />
       <workItem from="1702491012122" duration="273000" />
       <workItem from="1702491287891" duration="24000" />
-      <workItem from="1702491314312" duration="1456000" />
+      <workItem from="1702491314312" duration="3301000" />
     </task>
     <servers />
   </component>

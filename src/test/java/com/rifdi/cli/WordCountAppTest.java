@@ -1,95 +1,75 @@
 package com.rifdi.cli;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.PrintStream;
-import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.when;
+import static org.junit.Assert.*;
 
 public class WordCountAppTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
-
-    @Mock
-    private WordCountApp wordCountAppMock;
-
-    @InjectMocks
-    private WordCountApp wordCountApp;
+    private static final String VALID_FILE_PATH = "./files/test.txt";
+    private static final String INVALID_FILE_PATH = "/path/to/invalid/file.doc";
+    private static final String EMPTY_FILE_PATH = "./files/empty.txt";
 
     @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outContent));
-        System.setErr(new PrintStream(errContent));
-        MockitoAnnotations.openMocks(this);
-    }
-
-    @After
-    public void restoreStreams() {
-        System.setOut(System.out);
-        System.setErr(System.err);
+    public void setUp() {
+        // Any setup tasks, if needed
     }
 
     @Test
-    public void testWordCountAppWithValidFile() throws IOException {
-//        String fileName = "./files/example1.txt"; // Replace with your file path
-//        ByteArrayInputStream in = new ByteArrayInputStream(fileName.getBytes());
-//        System.setIn(in);
-//
-//        when(wordCountAppMock.readFileContent(anyString())).thenReturn("This is a sample text.");
+    public void validatePathFormat_validPath() {
+        String validPath = "/path/to/file.txt";
+        WordCountApp.validatePathFormat(validPath);
+        // No exception should be thrown
+    }
 
-        String sampleText = "This is a sample text.";
-
-        Map<String, Integer> wordCountMap = new HashMap<>();
-        wordCountMap.put("sample", 1);
-        wordCountMap.put("text", 1);
-        wordCountMap.put("this", 1);
-        wordCountMap.put("is", 1);
-        wordCountMap.put("a", 1);
-
-        when(wordCountAppMock.countWords(anyString())).thenReturn(wordCountMap);
-
-        wordCountApp.main(new String[]{});
-
-        assertEquals("Enter the file path (e.g., /path/to/file.txt): File Content:\nThis is a sample text.\n" +
-                "sample: 1\ntext: 1\nthis: 1\nis: 1\na: 1\nTo end session enter \"exit\" \n", outContent.toString());
+    @Test(expected = IllegalArgumentException.class)
+    public void validatePathFormat_invalidPath() {
+        WordCountApp.validatePathFormat(INVALID_FILE_PATH);
     }
 
     @Test
-    public void testWordCountAppWithInvalidPathFormat() {
-        String input = "/invalid/path\n/valid/path/file.txt\nexit\n";
-        ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
-        System.setIn(in);
+    public void readFileContent_validFile() throws IOException {
+        String content = WordCountApp.readFileContent(VALID_FILE_PATH);
+        assertNotNull(content);
+        assertTrue(content.contains("Lorem ipsum dolor"));
+    }
 
-        wordCountApp.main(new String[]{});
-
-        assertEquals("Invalid path format: File path should end with '.txt'\r\n" +
-                "Error reading the file: \\valid\\path\\file.txt (The system cannot find the path specified)\r\n", errContent.toString());
+    @Test(expected = IOException.class)
+    public void readFileContent_invalidFile() throws IOException {
+        WordCountApp.readFileContent(INVALID_FILE_PATH);
     }
 
     @Test
-    public void testWordCountAppExitCommand() throws IOException {
-        String input = "exit\n";
-        ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
-        System.setIn(in);
-
-        wordCountApp.main(new String[]{});
-
-        assertEquals("Enter the file path (e.g., /path/to/file.txt): \r\n", outContent.toString());
-        assertEquals("", errContent.toString());
+    public void countWords_validFile() throws IOException {
+        Map<String, Integer> wordCountMap = WordCountApp.countWords(VALID_FILE_PATH);
+        assertNotNull(wordCountMap);
+        assertEquals(9, wordCountMap.size());
+        assertEquals(Integer.valueOf(2), wordCountMap.get("the"));
+        assertEquals(Integer.valueOf(2), wordCountMap.get("banana"));
+        assertEquals(Integer.valueOf(2), wordCountMap.get("apple"));
+        assertEquals(Integer.valueOf(2), wordCountMap.get("and"));
+        assertEquals(Integer.valueOf(2), wordCountMap.get("to"));
+        assertEquals(Integer.valueOf(1), wordCountMap.get("market"));
+        assertEquals(Integer.valueOf(1), wordCountMap.get("went"));
+        assertEquals(Integer.valueOf(1), wordCountMap.get("buy"));
+        assertEquals(Integer.valueOf(1), wordCountMap.get("mango"));
     }
 
-    // Add more tests as needed
+    @Test
+    public void countWords_emptyFile() throws IOException {
+        Map<String, Integer> wordCountMap = WordCountApp.countWords(EMPTY_FILE_PATH);
+        assertNotNull(wordCountMap);
+        assertTrue(wordCountMap.isEmpty());
+    }
+
+    @Test(expected = IOException.class)
+    public void countWords_invalidFile() throws IOException {
+        WordCountApp.countWords(INVALID_FILE_PATH);
+    }
+
+    // Add more tests as needed for other methods
 }
