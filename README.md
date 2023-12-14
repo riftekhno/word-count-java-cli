@@ -18,7 +18,11 @@ Briefly introduce your project. What does it do? Why did you create it?
 
 ## Features
 
-List key features of your WordCountApp.
+- The program uses SLF4J for logging.
+- It takes input file paths until the user enters "exit" to end the session.
+- The word count is case-insensitive and ignores punctuation.
+- The word counts are displayed in descending order of occurrences.
+- JUnit test included
 
 ## Prerequisites
 
