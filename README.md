@@ -38,10 +38,10 @@ Method 2 will only require Docker installed on your machine.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/WordCountApp.git
+git clone https://github.com/riftekhno/word-count-java-cli.git
 
 # Navigate to the project directory
-cd WordCountApp
+cd word-count-java-cli
 
 # Build the project using Maven
 mvn clean install
@@ -51,11 +51,11 @@ mvn clean install
 ### Method 2: Using Docker container
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/WordCountApp.git
+# Clone the repository https://github.com/riftekhno/word-count-java-cli.git
+git clone 
 
 # Navigate to the project directory
-cd WordCountApp
+cd word-count-java-cli
 
 # Build the Dockerfile
 docker build -t word-count-java-cli .
