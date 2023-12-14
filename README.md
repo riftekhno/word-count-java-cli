@@ -8,6 +8,7 @@ WordCountApp is a simple Java console application that computes word occurrences
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [ToDo](#todo)
 - [License](#license)
 
 ## Features
@@ -85,6 +86,11 @@ In the Dockerfile we have copied the "file" directory from the repository into t
 Insert the txt filename as shown below. To provide more txt files just add txt files inside the "file" directory and re-run the Dockerfile again.
 
 ![img.png](img.png)
+
+## ToDo
+
+- Create YAML file of CI/CD pipeline.
+- Include unit test coverage analysis.
 
 ##  License
 Specify the license under which your project is distributed.
