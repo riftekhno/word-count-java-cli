@@ -4,17 +4,11 @@ WordCountApp is a simple Java console application that computes word occurrences
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
-
-## Introduction
-
-Briefly introduce your project. What does it do? Why did you create it?
 
 ## Features
 
@@ -28,12 +22,19 @@ Briefly introduce your project. What does it do? Why did you create it?
 
 Specify any prerequisites or dependencies that users need to have installed before using your application.
 
+### Method 1: Build and run on local machine
 - Java (version 21.0.1)
 - Maven (version 3.9.6)
 
+### Method 2: Using Docker container
+- Docker Desktop/CLI
+
 ## Getting Started
 
-Provide instructions on how to set up the project locally. Include any steps required for installing dependencies or configuring the environment.
+Method 1 will require you to install the Java SDK and Maven on your local machine.
+Method 2 will only require Docker installed on your machine.
+
+### Method 1: Build and run on local machine
 
 ```bash
 # Clone the repository
@@ -46,15 +47,44 @@ cd WordCountApp
 mvn clean install
 ```
 
+
+### Method 2: Using Docker container
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/WordCountApp.git
+
+# Navigate to the project directory
+cd WordCountApp
+
+# Build the Dockerfile
+docker build -t word-count-java-cli .
+
+# Run the docker image using Docker
+docker run -it --rm -v ./files:/usr/src/app word-count-java-cli
+```
+
 ## Usage
 Explain how to use your application. Include examples and command-line instructions.
 
-# Run the WordCountApp
+### Method 1: Build and run on local machine
+
+After build the file, run the command below to run the app.
 
 ```bash
 java -jar .\target\word-count-cli-1.0.jar
 ```
 
+Then a user input will prompt for the file path. Insert the file path and press enter. You should get the output as below.
+
+![img_1.png](img_1.png)
+### Method 2: Using Docker container
+If you successfully run the Dockerfile, a console user input will be prompted to provide the file path.
+In the Dockerfile we have copied the "file" directory from the repository into the container volume.
+
+Insert the txt filename as shown below. To provide more txt files just add txt files inside the "file" directory and re-run the Dockerfile again.
+
+![img.png](img.png)
 
 ##  License
 Specify the license under which your project is distributed.
