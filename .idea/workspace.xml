@@ -5,18 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b53e7988-316b-4c82-914e-b69da6ee8af4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rifdi/cli/WordCountAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rifdi/cli/WordCountAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;acs-frontend-cluster&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="acs-frontend-cluster" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "Application.WordCountApp.executor": "Run",
+    "Application.WordCountApp.executor": "Debug",
     "JUnit.AppTest.executor": "Run",
     "JUnit.WordCountAppTest.countWords_emptyFile.executor": "Run",
     "JUnit.WordCountAppTest.countWords_invalidFile.executor": "Run",
@@ -56,9 +75,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "features/add-dockerfile",
+    "git-widget-placeholder": "features/add-DI",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/GIT/word-count-java-cli/src/main/java/com/rifdi",
     "last_opened_file_path": "D:/GIT/word-count-java-cli/files",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,9 +93,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GIT\word-count-java-cli\files" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.rifdi.cli" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordCountAppTest">
-    <configuration name="WordCountAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.WordCountApp">
+    <configuration name="WordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountApp" />
       <module name="word-count-cli" />
       <extension name="coverage">
         <pattern>
@@ -83,41 +107,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rifdi.cli" />
-      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCountAppTest.countWords_emptyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="word-count-cli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rifdi.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rifdi.cli" />
-      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
-      <option name="METHOD_NAME" value="countWords_emptyFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCountAppTest.countWords_invalidFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="word-count-cli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rifdi.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rifdi.cli" />
-      <option name="MAIN_CLASS_NAME" value="com.rifdi.cli.WordCountAppTest" />
-      <option name="METHOD_NAME" value="countWords_invalidFile" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,10 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WordCountAppTest" />
+        <item itemvalue="Application.WordCountApp" />
         <item itemvalue="JUnit.WordCountAppTest.displaySortedWordCounts" />
-        <item itemvalue="JUnit.WordCountAppTest.countWords_invalidFile" />
-        <item itemvalue="JUnit.WordCountAppTest.countWords_emptyFile" />
         <item itemvalue="JUnit.WordCountAppTest.countWords_validFile" />
       </list>
     </recent_temporary>
@@ -193,11 +180,23 @@
       <workItem from="1702491012122" duration="273000" />
       <workItem from="1702491287891" duration="24000" />
       <workItem from="1702491314312" duration="3837000" />
+      <workItem from="1704658897085" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rifdi/cli/WordCountApp.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/word_count_java_cli$WordCountApp.ic" NAME="WordCountApp Coverage Results" MODIFIED="1702488392958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

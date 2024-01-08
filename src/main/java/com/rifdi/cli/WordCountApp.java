@@ -21,12 +21,10 @@ public class WordCountApp {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    String filePath = null;
-
     while (true) {
       // Prompt the user to enter the file path
       logger.info("Enter the file path (e.g., /path/to/file.txt): ");
-      filePath = scanner.nextLine();
+      String filePath = scanner.nextLine();
 
       if (filePath.equals("exit")) {
         break;
@@ -37,12 +35,12 @@ public class WordCountApp {
         validatePathFormat(filePath);
 
         // Read the content of the file
-        String fileContent = readFileContent(filePath);
+        String fileContent = ReadFile.readFileContent(filePath);
 
         // Log the file content
         logger.info("File Content:\n{}", fileContent);
 
-        Map<String, Integer> wordCountMap = countWords(filePath);
+        Map<String, Integer> wordCountMap = CountWords.countWords(filePath);
 
         // Display the word counts
         displaySortedWordCounts(wordCountMap);
@@ -74,40 +72,6 @@ public class WordCountApp {
     }
   }
 
-  public static String readFileContent(String filePath) throws IOException {
-    StringBuilder content = new StringBuilder();
-    try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-      String line;
-      while ((line = reader.readLine()) != null) {
-        content.append(line).append("\n");
-      }
-    }
-    return content.toString();
-  }
-
-  public static Map<String, Integer> countWords(String fileName) throws IOException {
-    Map<String, Integer> wordCountMap = new HashMap<>();
-
-    try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
-      String line;
-      while ((line = reader.readLine()) != null) {
-        // Split the line into words using space as a delimiter
-        String[] words = line.split("\\s+");
-
-        // Count the occurrences of each word
-        for (String word : words) {
-          // Remove punctuation and convert to lowercase for better matching
-          word = word.replaceAll("[^a-zA-Z]", "").toLowerCase();
-
-          if (!word.isEmpty()) {
-            wordCountMap.put(word, wordCountMap.getOrDefault(word, 0) + 1);
-          }
-        }
-      }
-    }
-
-    return wordCountMap;
-  }
 
   public static void displaySortedWordCounts(Map<String, Integer> wordCountMap) {
     wordCountMap.entrySet()
